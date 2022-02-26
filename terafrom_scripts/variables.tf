@@ -14,7 +14,7 @@ variable "subnets_cidr" {
 }
 variable "availability_zones" {
   type    = list(string)
-  default = ["us-east-1a", "us-east-1b"]
+  default = ["us-east-1b", "us-east-1c"]
 }
 variable "kubernetes_ami" {
   default = "ami-090717c950a5c34d3"
